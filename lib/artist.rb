@@ -18,8 +18,10 @@ class Artist
     @songs << song 
   end 
   
-  def songs 
-    @songs 
+  def songs(song)
+    if song.artist = self 
+      @songs
+    end 
   end 
   
  
