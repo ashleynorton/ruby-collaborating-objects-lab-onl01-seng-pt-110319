@@ -18,10 +18,10 @@ class Artist
     @songs << song 
   end 
   
-  def songs(song)
-    if song.artist = self 
-      @songs
-    end 
+  def songs
+    Song.all.select { |song|
+      song.artist = self 
+    }
   end 
   
  
