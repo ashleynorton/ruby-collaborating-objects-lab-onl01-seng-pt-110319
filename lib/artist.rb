@@ -25,10 +25,10 @@ class Artist
   end 
   
   def self.find_or_create_by_name(name)
-    if self.artist == nil 
-      self.artist = Artist.new(name)
+    if self == nil 
+      self = Artist.new(name)
     else
-      self.artist.name = name 
+      self.name = name 
     end 
   end 
  
