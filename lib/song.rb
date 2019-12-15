@@ -18,7 +18,7 @@
     new_song.artist_name = artist #couldn't do new_song.artist.name b/c the artist in line 16 is a string, not an object...PAY ATTENTION TO TYPES!!!
   end 
   
-  def artist_name=
+  def artist_name=(name)
     
   end 
 end 
