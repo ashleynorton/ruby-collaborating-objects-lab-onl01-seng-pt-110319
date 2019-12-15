@@ -16,6 +16,7 @@
     title = name.split(" - ")[1]
     new_song = self.new(title)
     
+    
   end 
   
 end 
