@@ -13,9 +13,8 @@
   end 
   
   def self.new_by_filename(name)
-    binding.pry
     song.title = name.split(" - ")[1]
-    #song 
+    song 
   end 
   
 end 
