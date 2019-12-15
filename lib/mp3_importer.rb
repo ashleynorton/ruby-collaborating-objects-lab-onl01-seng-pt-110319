@@ -9,7 +9,8 @@ class MP3Importer
     Dir.children(@path)
   end 
   
-  def import 
+  def import
+    self.files
     Song.new_by_filename
   end 
 end 
