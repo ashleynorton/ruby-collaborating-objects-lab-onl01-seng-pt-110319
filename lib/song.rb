@@ -13,8 +13,8 @@
   end 
   
   def self.new_by_filename(name)
-    title = name.split(" - ")[1]
-    new_song = self.new(title)
+    song = name.split(" - ")
+    new_song = self.new(song)
     
     
   end 
