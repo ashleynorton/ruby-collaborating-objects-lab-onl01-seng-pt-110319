@@ -8,4 +8,8 @@ class MP3Importer
   def files 
     Dir.children(@path)
   end 
+  
+  def import 
+    
+  end 
 end 
