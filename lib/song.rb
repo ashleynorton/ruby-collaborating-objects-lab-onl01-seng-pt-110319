@@ -15,7 +15,10 @@
   def self.new_by_filename(name)
     artist, song = name.split(" - ")
     new_song = self.new(song)
-    
+    new_song.artist_name = artist #couldn't do new_song.artist.name b/c the artist in line 16 is a string, not an object...PAY ATTENTION TO TYPES!!!
   end 
   
+  def artist_name=
+    
+  end 
 end 
